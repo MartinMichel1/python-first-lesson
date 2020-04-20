@@ -1,0 +1,13 @@
+first_number = int(input("Choose first number: "))
+second_number = int(input("Choose second number: "))
+operation = input("Choose arithmetic operation (+, -, * or /) ")
+if operation == "+":
+   print(first_number+second_number)
+elif operation == "-":
+    print(first_number + second_number)
+elif operation == "*":
+    print(first_number * second_number)
+elif operation == "/":
+    print(first_number / second_number)
+else:
+    print("Chosen operation is not possible.")
